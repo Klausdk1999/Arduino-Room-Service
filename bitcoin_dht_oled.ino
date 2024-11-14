@@ -223,7 +223,7 @@ void setup() {
   WiFi.mode(WIFI_STA);
   WiFi.setAutoReconnect(true);
   WiFi.persistent(true);
-  WiFiMulti.addAP("Minuano", "kf156873");
+  WiFiMulti.addAP("YOUR WIFI", "PASSWORD");
 
   Serial.println("Connecting to WiFi...");
   while (WiFiMulti.run() != WL_CONNECTED) {
